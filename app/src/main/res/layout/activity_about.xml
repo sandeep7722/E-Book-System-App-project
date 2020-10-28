@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#F5F5F5"
+    tools:context=".AboutActivity">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logobook"
+        android:id="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        />
+
+<androidx.cardview.widget.CardView
+    android:layout_below="@id/logo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="15dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="APP NAME  ::  EbookStore"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:id="@+id/appname"
+            />
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Version  ::  1.0"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_below="@id/appname"
+            android:id="@+id/version"
+            />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Categorym  ::  Education"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_below="@id/version"
+            android:id="@+id/cat"
+            />
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Company  ::  spycorp pvt. ltd."
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_below="@id/cat"
+            android:id="@+id/com"
+            />
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email::sandeepkannaujiya.123@gmail.com"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_below="@id/com"
+            android:id="@+id/em"
+            />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "271252581533",
+    "firebase_url": "https://ebookstore-a3918.firebaseio.com",
+    "project_id": "ebookstore-a3918",
+    "storage_bucket": "ebookstore-a3918.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271252581533:android:1b83dc68d880544c",
+        "android_client_info": {
+          "package_name": "com.gamechanger.ebookstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271252581533-0cd2dmfjgnj2jvqvgrcop6obl60256r2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gamechanger.ebookstore",
+            "certificate_hash": "750e8b565d5f5f65cebfe804390cc2ecdd126249"
+          }
+        },
+        {
+          "client_id": "271252581533-l9sbrnj7157gv5tlisjt8l455l6nckt3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYIDwZInbl3min-xeA1dPrYVCG2B0ogJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271252581533-l9sbrnj7157gv5tlisjt8l455l6nckt3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
